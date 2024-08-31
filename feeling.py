@@ -45,5 +45,5 @@ while sair == False:
 
     result = extract(picture)
     sentimento = inteligencia(result)
-    print(f'\n    Interpretaçao do resultado\n1.Muito negativo\n2.Negativo\n3.Neutro\n4.Positivo\n5.Muito positivo\nsentimento detectado nivel: {sentimento}')
+    print(f'\n    Interpretaçao do resultado\n1.Muito negativo\n2.Negativo\n3.Neutro\n4.Positivo\n5.Muito positivo\nsentimento nivel {sentimento} detectado\n')
 
